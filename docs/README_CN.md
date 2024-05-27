@@ -12,6 +12,12 @@
 - 输出到粘贴板
 - 输出到控制台
 
+## 命令行参数
+- `-root`: 项目根目录
+- `-p_struct`: 是否解析项目结构
+- `-g_console`: 是否输出到命令台
+- `-g_clipboard`: 是否复制到粘贴板
+
 ## 贡献者
 <a href="https://github.com/MurInj/ProjGPT/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MurInj/ProjGPT" />

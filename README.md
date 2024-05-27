@@ -9,6 +9,14 @@ Enable GPT to understand the structure and relationships of project code through
 [[English](https://github.com/MurInj/ProjGPT/README.md)|[中文](https://github.com/MurInj/ProjGPT/docs/README_CN.md)]
 ## Now Support
 - Describe the structure of the project
+- Export to Pasteboard
+- Output to Console
+
+## command line args
+- `-root`: proj\`s root path
+- `-p_struct`: true if parse project`s struct
+- `-g_console`: true if generate results and echo in console
+- `-g_clipboard`: generate to clipboard
 
 ## Contributors
 <a href="https://github.com/MurInj/ProjGPT/graphs/contributors">
