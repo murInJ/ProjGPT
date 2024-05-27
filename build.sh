@@ -9,7 +9,12 @@ mkdir -p build/bin
 compile_for_platform() {
     local os=$1
     local arch=$2
-    local output_name="${RUN_NAME}_${os}_${arch}"
+    local extension=""
+    # 为Windows平台的二进制文件添加.exe扩展名
+    if [ "$os" = "windows" ]; then
+        extension=".exe"
+    fi
+    local output_name="${RUN_NAME}_${os}_${arch}${extension}"
 
     # 编译二进制文件
     GOOS=$os GOARCH=$arch go build -ldflags="-s -w" -o build/bin/${output_name} ./src/main.go && cmd/upx -9 build/bin/${output_name}
