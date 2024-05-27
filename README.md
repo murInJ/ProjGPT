@@ -6,7 +6,7 @@
 
 Enable GPT to understand the structure and relationships of project code through natural language descriptions to better answer questions about the project
 
-[[English](https://github.com/MurInj/ProjGPT/README.md)|[中文](https://github.com/murInJ/ProjGPT/blob/main/docs/README_CN.md)]
+[[English](https://github.com/murInJ/ProjGPT/tree/main)|[中文](https://github.com/murInJ/ProjGPT/blob/main/docs/README_CN.md)]
 ## Now Support
 - Describe the structure of the project
 - Export to Pasteboard

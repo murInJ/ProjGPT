@@ -6,7 +6,7 @@
 
 让GPT能通过自然语言描述理解项目代码的结构与关系，从而更好的回答关于项目的问题
 
-[[English](https://github.com/MurInj/ProjGPT/README.md)|[中文](https://github.com/murInJ/ProjGPT/blob/main/docs/README_CN.md)]
+[[English](https://github.com/murInJ/ProjGPT/tree/main)|[中文](https://github.com/murInJ/ProjGPT/blob/main/docs/README_CN.md)]
 ## 现在支持的功能
 - 描述项目的结构
 - 输出到粘贴板
