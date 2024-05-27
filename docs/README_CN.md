@@ -4,13 +4,15 @@
 [![GitHub contributors](https://img.shields.io/github/contributors/MurInJ/ProjGPT.svg)](https://GitHub.com/MurInJ/ProjGPT/graphs/contributors/)
 ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/murInJ/ProjGPT/go.yml)
 
-Enable GPT to understand the structure and relationships of project code through natural language descriptions to better answer questions about the project
+让GPT能通过自然语言描述理解项目代码的结构与关系，从而更好的回答关于项目的问题
 
 [[English](https://github.com/MurInj/ProjGPT/README.md)|[中文](https://github.com/MurInj/ProjGPT/docs/README_CN.md)]
-## Now Support
-- Describe the structure of the project
+## 现在支持的功能
+- 描述项目的结构
+- 输出到粘贴板
+- 输出到控制台
 
-## Contributors
+## 贡献者
 <a href="https://github.com/MurInj/ProjGPT/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=MurInj/ProjGPT" />
 </a>
