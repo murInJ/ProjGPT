@@ -9,12 +9,14 @@ Enable GPT to understand the structure and relationships of project code through
 [[English](https://github.com/murInJ/ProjGPT/tree/main)|[中文](https://github.com/murInJ/ProjGPT/blob/main/docs/README_CN.md)]
 ## Now Support
 - Describe the structure of the project
+- Describe the contents of the project text file
 - Export to Pasteboard
 - Output to Console
 
 ## command line args
 - `-root`: proj\`s root path
 - `-p_struct`: true if parse project`s struct
+- `-p_content`: Whether to parse the contents of a text file.
 - `-g_console`: true if generate results and echo in console
 - `-g_clipboard`: generate to clipboard
 

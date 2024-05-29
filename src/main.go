@@ -10,13 +10,14 @@ import (
 func main() {
 	rootPtr := flag.String("root", ".", "proj`s root path")
 	parseStructPtr := flag.Bool("p_struct", true, "true if parse project`s struct")
+	parseFileContentPtr := flag.Bool("p_content", true, "true if parse file`s content")
 	generateConsolePtr := flag.Bool("g_console", false, "true if generate results and echo in console")
 	generateClipboardPtr := flag.Bool("g_clipboard", true, "generate to clipboard")
 	flag.Parse()
 
 	utils.Check_root(rootPtr)
 
-	res, err := parser.ParseProj(*rootPtr, *parseStructPtr)
+	res, err := parser.ParseProj(*rootPtr, *parseStructPtr, *parseFileContentPtr)
 	if err != nil {
 		panic(err)
 	}

@@ -9,12 +9,14 @@
 [[English](https://github.com/murInJ/ProjGPT/tree/main)|[中文](https://github.com/murInJ/ProjGPT/blob/main/docs/README_CN.md)]
 ## 现在支持的功能
 - 描述项目的结构
+- 描述项目文本文件内容
 - 输出到粘贴板
 - 输出到控制台
 
 ## 命令行参数
 - `-root`: 项目根目录
 - `-p_struct`: 是否解析项目结构
+- `-p_content`: 是否解析文本文件内容
 - `-g_console`: 是否输出到命令台
 - `-g_clipboard`: 是否复制到粘贴板
 
